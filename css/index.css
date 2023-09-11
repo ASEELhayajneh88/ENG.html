@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(26, 26, 218);
+    margin: 0px;
+  text-align: left;}
+   
+#navBar{
+  background-color: rgb(140, 140, 171);
+  text-align: center;
+  padding: 10px;
+  margin-top: 3px;
+  bottom: 0px;
+  width: 100%;
+
+}
+
+#logo{
+  width: 50px;
+  height: 50px;
+  margin: 40px;
+  
+}
+#fotter{
+  background-color: rgb(144, 149, 197);
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+    .menuButton {
+      background-color: #ccc8db;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      margin: 0px 50px;
+      }
+      .navRightMenu{
+        float: right;
+        margin: 50px;
+        margin-top: 80px;
+      }
+
+     
+      
+      .menuButton {
+        background-color: rgb(65, 65, 238);
+        color: black;
+        border: 4px solid #3a45e7;
+      }
+      
+      .menuBtton:hover {
+        background-color: #aa437c;
+        color: rgb(220, 147, 31);
+      }
+      .menuButton:active{
+        background-color: rgb(193, 39, 90);
+      }
+      .contentHeader{
+        margin-top: 10px;
+      }
+.gridContainer{
+  display: grid;
+  grid-template-columns:  auto auto ;
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 20px;
+  height: 100vh;
+  background-color: #4838dc;
+  border: 1px solid #ccc;
+  grid-gap: 8px;
+
+}
+.gridItem1{
+  background-color: #3a45e7;
+}
+.gridItem2{
+  background-color: #4838dc;
+}
+.gridItem
+    
+      .gridItem{
+        grid-area:left;
+        margin-left: 20px;
+        background-color: #3a45e7;
+        padding: 80px;
+        flex: 50%;
+        border: 10px solid #8b1212;
+
+      }
+      

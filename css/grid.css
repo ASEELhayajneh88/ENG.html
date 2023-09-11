@@ -1,0 +1,47 @@
+
+  .gridItem1{
+    grid-area: right;
+    background-color: #e18b28;
+    padding: 50px;
+  }
+  .gridItem2{
+    grid-area: left;
+    background-color:  #e18b28;
+    padding: 50px;
+  }
+  .gridItem3{
+    grid-area: center;
+background-color: #e18b28 ;
+padding: 50px;
+  }
+  .gridItem4{
+    grid-area: footer;
+background-color:  #e18b28;
+padding: 50px;
+  }
+     
+  .gridItem{
+    grid-area:left;
+    margin-left: 20px;
+    padding: 80px;
+    flex: 50%;
+    border: 10px solid #e18b28;
+  
+        }
+        .gridItem6{
+            grid-area: nav;
+            background-color: #e18b28;
+
+        }
+        .gridContainer{
+            display: grid;
+            grid-template-areas:"nav nav nav nav nav" 
+            "left center center center right"
+            "footer footer footer footer right" ;
+            grid-gap: 20px;
+            height: 100vh;
+            border: 1px solid #ccc;
+            grid-gap: 8px;
+          
+          }
+          

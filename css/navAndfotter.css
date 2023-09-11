@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+
+}
+#navBar{
+    background-color: gray;
+}
+button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0px 50px;
+}
+#fotter{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}  
+.menuButton {
+    background-color: #ccc8db;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0px 50px;
+    }
+    .navRightMenu{
+      float: right;
+      margin: 50px;
+      margin-top: 80px;
+    }
+
+   
+    
+    .menuButton {
+      background-color: rgb(65, 65, 238);
+      color: black;
+      border: 4px solid #3a45e7;
+    }
+    
+    .menuBtton:hover {
+      background-color: #aa437c;
+      color: rgb(220, 147, 31);
+    }
+    .menuButton:active{
+      background-color: rgb(193, 39, 90);
+    }
+    
+    @media only screen and(max-width:400){
+        .navRightMenu{
+            float: none;
+            margin: 0px;
+            margin-top: 20px;
+    }
+}
