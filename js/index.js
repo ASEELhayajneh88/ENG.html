@@ -133,3 +133,20 @@ var myinput= document.getElementsByClassName('input')[0]
   if(num10<num11){
     console.log("num10 is less")
   }
+
+
+  function funName(x){
+    console.log(x)
+  }
+  funName(x)
+  varbackgroundButton=document.getElementById(Changecolor)
+  function Changecolor()
+{
+  console.log("Changcolor")
+  console.log(document.style.backgroundcolr="red")
+} 
+// create new image in js and added after the image for it is
+var newImage= document.createElement('logo')
+//newImage.setAttribute('src,')
+newImage.scr="download.png";
+var logo=document
